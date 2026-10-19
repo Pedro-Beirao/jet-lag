@@ -1,5 +1,5 @@
 # Preparations before playing the game
-The game will be played on this [link](https://jqchong.github.io/jet-lag/). I have tried my very best to convert all imperial units to metric, so it probably will be different from the actual metric version. Welp, it is what it is, and this is what you gotta do to save 100 SGD...
+The game will be played on this [link](https://pedro-beirao.github.io/jet-lag/). I have tried my very best to convert all imperial units to metric, so it probably will be different from the actual metric version. Welp, it is what it is, and this is what you gotta do to save 100 SGD...
 
 ### Conventions
 For Singapore, we will be playing with medium rules (c.f. rule book). All stations are accessible except any stations west to Chinese Garden (i.e. Lakeside, Boon Lay etc.). First group of hiders will start in Dhoby Ghaut.

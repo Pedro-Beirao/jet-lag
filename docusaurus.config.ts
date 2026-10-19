@@ -10,7 +10,7 @@ const config: Config = {
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
-	url: 'https://jqchong.github.io',
+	url: 'https://pedro-beirao.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/jet-lag/',
@@ -18,7 +18,7 @@ const config: Config = {
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'JQChong', // Usually your GitHub org/user name.
+	organizationName: 'Pedro-Beirao', // Usually your GitHub org/user name.
 	projectName: 'jet-lag', // Usually your repo name.
 
 	onBrokenLinks: 'throw',
@@ -38,9 +38,6 @@ const config: Config = {
 			{
 				docs: {
 					sidebarPath: './sidebars.ts',
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/JQChong/jet-lag/tree/master/',
 				},
 				// blog: {
 				//   showReadingTime: true,
@@ -100,7 +97,7 @@ const config: Config = {
 
 				{ to: '/map_generator', label: 'Map Generator', position: 'right' },
 				{
-					href: 'https://github.com/JQChong/jet-lag',
+					href: 'https://github.com/Pedro-Beirao/jet-lag',
 					label: 'GitHub',
 					position: 'right',
 				},
