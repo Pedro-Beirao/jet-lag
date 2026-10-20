@@ -357,8 +357,8 @@ export const cardDefinitions: Card[] = [
 		canUse: (hand) => {
 			for (let card of hand) if (card.file.includes('time_bonus')) return true;
 			return false;
-			},*/
-	}
+			},
+	}*/
 ];
 
 function generateDeck(): DeckCard[] {
