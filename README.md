@@ -1,8 +1,21 @@
-# Preparations before playing the game
-The game will be played on this [link](https://pedro-beirao.github.io/jet-lag/). I have tried my very best to convert all imperial units to metric, so it probably will be different from the actual metric version. Welp, it is what it is, and this is what you gotta do to save 100 SGD...
+# My personal fork of the Jet Lag deck and questions
 
-### Conventions
-For Singapore, we will be playing with medium rules (c.f. rule book). All stations are accessible except any stations west to Chinese Garden (i.e. Lakeside, Boon Lay etc.). First group of hiders will start in Dhoby Ghaut.
+This is my personal fork of this website, with modified (both added and removed) questions and cards, which I believe make it a better and more balanced game.
+
+You can play it at [jetlag.pedro-beirao.eu](https://jetlag.pedro-beirao.eu)
+
+Or find the original [here](https://github.com/JQChong/jet-lag)
+
+### Guide to modify cards and questions
+
+`src/pages/investigation` has the files that hold the questions in each category, pretty easy to customise.
+
+For the cards it is a bit more involved:
+1. Create a PNG of the card and put it in `static/cards`.
+2. Add it's name and amount to `src/components/CardDeckGallery.tsx`
+3. Add it's full configuration and behaviour to `src/core/deck.ts`
+
+I wish for a simpler way to just define everything in JSON and it would render the card in HTML and handle everything, but that's not the how the devs setup this website, and it would be a huge task to rewrite it now.
 
 ### Rule Book
 Read and understand the following sections.
@@ -31,21 +44,6 @@ Everyone must get an API key from ThunderForest so that the MRT lines and statio
 Note: you will see in one of the tutorial pages that players should share the link to each other while playing the game. To make one of the curses work, we will not be doing so. All questions and answers will be done as text messages.
 -->
 
-### Tourist Day Pass
-Buy a tourist day pass as you will be moving a lot in public transportations. 
-
-#### Quick Warning on Public Transportations
-Speaking of public transportations, apparently you must tap out 2 hours after you tap in, otherwise you will be stuck in the station and potentially be fined for loitering.
-
-### Life 360
-Download Life 360 as it will be used for tracking seekers when you are playing as hiders.
-
-N.B. I was told that Google Family Link works as well, but it's only for Android users lol
-
-# Website (Note to self)
-
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
 ### Installation
 
 ```
@@ -68,7 +66,11 @@ $ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+### Deployment on Github Pages (Actions)
+
+Just need to enable it in the repo settings, `.github/workflows/gh-pages.yml` will build the static content and deploy it.
+
+### Deployment on Github Pages (gh-pages branch)
 
 Using SSH:
 

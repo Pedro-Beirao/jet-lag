@@ -14,7 +14,7 @@ export default function Home() {
           <div className='warning-box'>
             This is my personal fork of this website, with modified (both added and removed) questions and cards, which I believe make it a better and more balanced game.
             <br/><br/>
-            You can find the original website <a href="https://jqchong.github.io/jet-lag/">here</a>, .
+            You can find the original website <a href="https://jqchong.github.io/jet-lag/">here</a>.
           </div>
 					<div className='logo'>
 						<img src='img/jetlag.png' alt='Hide and Seek Logo' />
