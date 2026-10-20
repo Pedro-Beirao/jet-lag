@@ -40,7 +40,7 @@ const curses = [
 	{ file: 'curse_overflowing_chalice' },
 	{ file: 'curse_ransom_note' },
 	{ file: 'curse_right_turn' },
-	{ file: 'curse_sloth' },
+	// { file: 'curse_sloth' },
 	{ file: 'curse_spotty_memory' },
 	{ file: 'curse_the_bird_guide' },
 	{ file: 'curse_the_unguided_tourist' },

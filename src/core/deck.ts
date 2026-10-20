@@ -29,17 +29,19 @@ export function serializeDeck(deck: DeckCard[]): DeckCardData[] {
 export function deserializeDeck(data: DeckCardData[]): DeckCard[] {
 	if (data === null || data === undefined) return null;
 	return data.map(({ file, id }) => {
-		const def = cardDefinitions.find((c) => c.file === file);
-		if (!def) throw new Error(`Unknown card file: ${file}`);
-		return {
-			file,
-			id,
-			hasMorePages: def.hasMorePages,
-			useText: def.useText,
-			cannotUseText: def.cannotUseText,
-			canUse: def.canUse,
-		};
-	});
+			const def = cardDefinitions.find((c) => c.file === file);
+			if (!def) return null;
+
+			return {
+				file,
+				id,
+				hasMorePages: def.hasMorePages,
+				useText: def.useText,
+				cannotUseText: def.cannotUseText,
+				canUse: def.canUse,
+			};
+		})
+		.filter((card) => card !== null);
 }
 
 export const cardDefinitions: Card[] = [
