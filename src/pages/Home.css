@@ -70,6 +70,20 @@
 	position: relative;
 }
 
+.warning-box {
+  border: 3px solid green;
+  background-color: lightyellow;
+  border-radius: 0.7em;
+  margin: 4em;
+  padding: 1em;
+  font-size: 15pt;
+  color: black;
+}
+
+.warning-box a {
+  text-decoration: underline;
+}
+
 .title {
 	font-size: 7rem;
 	font-weight: 900;

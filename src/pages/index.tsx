@@ -8,9 +8,14 @@ import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
 	return (
 		<Layout description='A real-world game played on public transit'>
-			<Analytics />
-			<div className='homepage-hero'>
-				<div className='hide-seek-logo'>
+      <Analytics />
+      <div className='homepage-hero'>
+        <div className='hide-seek-logo'>
+          <div className='warning-box'>
+            This is my personal fork of this website, with modified (both added and removed) questions and cards, which I believe make it a better and more balanced game.
+            <br/><br/>
+            You can find the original website <a href="https://jqchong.github.io/jet-lag/">here</a>, .
+          </div>
 					<div className='logo'>
 						<img src='img/jetlag.png' alt='Hide and Seek Logo' />
 					</div>
