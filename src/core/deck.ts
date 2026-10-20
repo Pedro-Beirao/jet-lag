@@ -283,13 +283,6 @@ export const cardDefinitions: Card[] = [
 		canUse: (hand) => true,
 	},
 	{
-		file: 'curse_the_unguided_tourist',
-		count: 1,
-		hasMorePages: false,
-		useText: 'To use this card, the seekers must be outside.',
-		canUse: (hand) => true,
-	},
-	/*{
 		file: 'curse_the_uturn',
 		count: 1,
 		hasMorePages: false,
@@ -305,7 +298,7 @@ export const cardDefinitions: Card[] = [
 			'You cannot use this card as you do not have 2 cards in your hand.',
 		canUse: (hand) => hand.length > 2,
 	},
-	{
+	/*{
 		file: 'curse_water_weight',
 		count: 1,
 		hasMorePages: false,
@@ -361,6 +354,13 @@ export const cardDefinitions: Card[] = [
 			return false;
 			},
 	}*/
+	{
+		file: 'curse_the_unguided_tourist',
+		count: 1,
+		hasMorePages: false,
+		useText: 'To use this card, the seekers must be outside.',
+		canUse: (hand) => true,
+	},
 ];
 
 function generateDeck(): DeckCard[] {
