@@ -13,7 +13,7 @@ const config: Config = {
 	url: 'https://pedro-beirao.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: '/jet-lag/',
+	baseUrl: '/',
 	trailingSlash: false,
 
 	// GitHub pages deployment config.

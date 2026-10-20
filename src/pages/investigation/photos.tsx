@@ -17,7 +17,7 @@ const allPrompts: Record<string, string[]> = {
 		'Trace Nearest Street/Path',
 		'Two Buildings',
 		'Restaurant Interior',
-		'Train Platform/Gantry of Train Station',
+		// 'Train Platform/Gantry of Train Station',
 		'Park',
 		'Grocery Store Aisle',
 		'Place of Worship',

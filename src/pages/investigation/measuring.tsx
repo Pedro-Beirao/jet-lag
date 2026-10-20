@@ -24,10 +24,8 @@ export default function Measuring() {
 						'A 2nd Admin. Div. Border',
 					],*/
 					Natural: [
-						'Sea Level',
+						'The Sea',
 						'A Body of Water',
-						'A Coastline',
-						//'A Mountain',
 						'A Park',
 					],
 					'Places of Interest': [
@@ -45,8 +43,7 @@ export default function Measuring() {
 					],
 					'Miscellaneous (Not supported on Map Generator)': [
 						'A McDonalds',
-						'A 7-Eleven',
-						'A FairPrice (Express, Finest, Xtra etc.)'
+						'A Continente'
 					]
 				}}
 			/>

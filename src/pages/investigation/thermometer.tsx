@@ -10,7 +10,7 @@ export default function Thermometer() {
 			<InvestigationForm
 				title='3. THERMOMETER'
 				chips={['DRAW 2, PICK 1', '5 MINUTES']}
-				prompt="I've just traveled (at least) Distance. Am I hotter or colder?"
+				prompt="I've just travelled (at least) Distance. Am I hotter or colder?"
 				storageKey='thermometerNotes'
 				fields={{
 					'All Games': ['1 km', '5 km'],

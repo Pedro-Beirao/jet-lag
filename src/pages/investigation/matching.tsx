@@ -20,7 +20,7 @@ export default function Matching() {
 						'Street or Path',
 					],
 					'Administrative Divisions': [
-						'Community Development Council',
+            'City'
 						//'1st Admin. Division',
 						//'2nd Admin. Division',
 						//'3rd Admin. Division',
@@ -38,8 +38,7 @@ export default function Matching() {
 					'Public Utilities': ['Hospital', 'Library', 'Foreign Consulate'],
 					'Miscellaneous (Not supported on Map Generator)': [
 						'A McDonalds',
-						'A 7-Eleven',
-						'A FairPrice (Express, Finest, Xtra etc.)'
+						'A Continente',
 					]
 				}}
 			/>
