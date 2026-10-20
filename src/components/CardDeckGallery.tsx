@@ -22,6 +22,7 @@ const powerups = [
 const curses = [
 	{ file: 'curse_bus' },
 	{ file: 'curse_bridge_troll' },
+	{ file: 'curse_cairn' },
 	{ file: 'curse_distant_cuisine' },
 	{ file: 'curse_drained_brain' },
 	{ file: 'curse_egg_partner' },

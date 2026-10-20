@@ -121,12 +121,12 @@ export const cardDefinitions: Card[] = [
 		hasMorePages: false,
 		canUse: (hand) => true,
 	},
-	/*{
+	{
 		file: 'curse_bridge_troll',
 		count: 1,
 		hasMorePages: false,
 		useText:
-			'To use this card, you must be (S 1) (M 10) (L 50) km away from the seekers.',
+			'To use this card, you must be (S 2) (M 10) (L 50) km away from the seekers.',
 		canUse: (hand) => true,
 	},
 	{
@@ -135,7 +135,7 @@ export const cardDefinitions: Card[] = [
 		hasMorePages: false,
 		useText: 'To use this card, you must build a rock tower.',
 		canUse: (hand) => true,
-	},*/
+	},
 	{
 		file: 'curse_distant_cuisine_v2',
 		count: 1,
@@ -339,14 +339,14 @@ export const cardDefinitions: Card[] = [
 		hasMorePages: false,
 		useText: "To use this card, you must roll a die. If it's an even number, this card has no effect.",
 		canUse: (hand) => true,
-	},*/
+	},
 	{
 		file: 'curse_imaginary_sinkhole_micro',
 		count: 1,
 		hasMorePages: false,
 		useText: "To use this card, seekers must be 250m away from the boundary of the sinkhole.",
 		canUse: (hand) => true,
-	},
+		},
 	{
 		file: 'curse_sloth',
 		count: 1,
@@ -357,7 +357,7 @@ export const cardDefinitions: Card[] = [
 		canUse: (hand) => {
 			for (let card of hand) if (card.file.includes('time_bonus')) return true;
 			return false;
-		},
+			},*/
 	}
 ];
 
